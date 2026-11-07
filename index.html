@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onur Studio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      line-height: 1.5;
+      padding: 3rem 1rem;
+    }
+    .container {
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #333333;
+      padding-bottom: 1rem;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: #888888;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+    .bio {
+      font-size: 0.95rem;
+      color: #aaaaaa;
+      margin-bottom: 2.5rem;
+    }
+    .section-title {
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #222222;
+      padding-bottom: 0.5rem;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: #000000;
+      border-bottom: 1px solid #222222;
+      padding: 1rem 0;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.3rem;
+    }
+    .card-title {
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .card-title:hover {
+      text-decoration: underline;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: #888888;
+      font-family: monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .card-desc {
+      color: #777777;
+      font-size: 0.85rem;
+    }
+    footer {
+      border-top: 1px solid #333333;
+      padding-top: 1rem;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>ONUR STUDIO</h1>
+      <p class="subtitle">Personal software & local AI projects by Onuralp</p>
+    </header>
+
+    <p class="bio">
+      14yo developer making local AI models, offline system tools, and custom software utilities.
+    </p>
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Kutad AI</span>
+          <span class="tag">[ Closed Source ]</span>
+        </div>
+        <p class="card-desc">Custom offline AI engine and vision models built for local execution.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a href="https://github.com/OnurStudioOfficial" class="card-title">DirectVM</a>
+          <span class="tag">[ Open Source ]</span>
+        </div>
+        <p class="card-desc">Lightweight QEMU and ADB wrapper for low-level virtual machine control.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a href="https://github.com/OnurStudioOfficial" class="card-title">NRPlayer</a>
+          <span class="tag">[ Open Source ]</span>
+        </div>
+        <p class="card-desc">Custom offline media player optimized for speed and local playback.</p>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://github.com/OnurStudioOfficial" target="_blank">GitHub &rarr;</a>
+    </footer>
+  </div>
+
+</body>
+</html>
